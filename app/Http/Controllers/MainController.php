@@ -77,6 +77,7 @@ class MainController extends Controller {
         return view('pages/edit-profil');
     }
     public function menuDaftar() {
+        
         return view('pages/menu-daftar');
     }
     public function menuKategori() {

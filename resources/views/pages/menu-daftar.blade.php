@@ -71,10 +71,11 @@
 							</td>
 						</tr>
 						@endforeach
-				@endif
-				
+                        
                     </tbody>
                 </table>
+                {{ $menus->links() }}
+                @endif
             </div>
         </div>
     </div>

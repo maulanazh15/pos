@@ -9,7 +9,7 @@ class MenuController extends Controller
 {
     public function index()
     {
-        $menus = Menu::with('kategori')->get();
+        $menus = Menu::paginate(10);
         return view('pages.menu-daftar', compact('menus')); 
     }
     

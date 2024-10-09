@@ -29,9 +29,9 @@ return [
 		'url' => 'javascript:;',
 		'caret' => true,
 		'sub_menu' => [[
-			'url' => '/menu/daftar',
+			'url' => '/menu',
 			'title' => 'Daftar Menu',
-			'route-name' => '/menu/daftar'
+			'route-name' => '/menu'
 		],[
 			'url' => '/menu/kategori',
 			'title' => 'Daftar Kategori',
